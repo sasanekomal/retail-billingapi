@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://retail-billing.netlify.app")
 @RequestMapping("/orders")
 @RequiredArgsConstructor
 public class OrderController {

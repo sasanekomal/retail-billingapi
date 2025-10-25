@@ -25,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://retail-billing.netlify.app")
 
 public class AuthController {
     private final PasswordEncoder passwordEncoder;

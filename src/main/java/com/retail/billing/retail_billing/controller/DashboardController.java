@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 @RequestMapping("/dashboard")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://retail-billing.netlify.app")
 public class DashboardController {
     
     private final OrderService orderService;

@@ -19,7 +19,7 @@ import com.retail.billing.retail_billing.service.RazorpayService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://retail-billing.netlify.app")
 @RequestMapping("/payments")
 @RequiredArgsConstructor
 public class PaymentController {

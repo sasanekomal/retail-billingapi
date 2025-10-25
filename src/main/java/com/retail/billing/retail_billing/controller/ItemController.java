@@ -26,9 +26,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 
+
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://retail-billing.netlify.app")
 public class ItemController {
    private final ItemService itemService;
 
